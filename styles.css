@@ -1,0 +1,45 @@
+body {
+  background: url('img/background.jpg') no-repeat top center;
+}
+h2 {
+  color: whitesmoke;
+}
+.select {
+  max-width: 100%;
+  margin-bottom: 1em;
+  align-self: center;
+}
+.catwrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  grid-auto-flow: row;
+}
+
+.catwrap .cat-count {
+  color: white;
+  font-size: 2em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.admin-button {
+  top: 100px;
+  left: 16px;
+  font-size: 2em;
+}
+
+.admin > input {
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  flex-grow: 1;
+}
+
+.hidden {
+  display: none;
+}
